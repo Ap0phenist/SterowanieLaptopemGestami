@@ -1,0 +1,15 @@
+one, peace, three - przełączenie okien w przeglądarce
+two up - start menu
+ok - przeglądarka
+stop - eksplorator plików
+call - zoom/discord
+fist - zwinąć wszystkie okna
+two up inv. - włącz/wył rozpoznawanie gestów
+like/dislike - dźwięk
+stop inverted - close active window
+
+menu konfiguracyjne
+
+choose gesture - skrót klawiszowy/ścieżka do exe
+
+ochrona prywatności(lampka)

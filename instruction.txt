@@ -1,0 +1,20 @@
+# Create virtual env by conda or venv
+conda create -n gestures python=3.9 -y
+conda activate gestures
+# Install requirements
+pip install -r requirements2.txt
+conda install -c conda-forge pyautogui
+
+in default.yaml:
+experiment_name: SSDLiteMobilenet_small
+model:
+  name: 'SSDLiteMobilenet_small'  # 'MobileNetV3_large' or 'MobileNetV3_small' or 'ResNet18'
+  pretrained: False
+  freezed: False
+  start_epoch: 0
+  checkpoint: D:/pwr/praca dyplomowa/GestureRecognition/hagrid_v1/SSDLite_MobilenetV3_small.pth
+  full_frame: False
+
+python demo.py -p D:/pwr/praca dyplomowa/GestureRecognition/hagrid_v1/default.yaml --landmarks
+
+python DesktopControlApp.py
